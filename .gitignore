@@ -1,0 +1,67 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories for Node.js
+node_modules/
+.pnp/
+.pnp.js
+
+# Python specific ignores
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.dist-info/
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# .NET specific ignores
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.vs/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output directories
+build/
+dist/
+
+# IDE & Editor settings
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+.DS_Store
+Thumbs.db
+
+# Frontend specific ignores (for Vue.js and React.js)
+dist/
+build/
